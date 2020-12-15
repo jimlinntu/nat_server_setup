@@ -89,3 +89,4 @@ network:
 * <https://www.howtogeek.com/177621/the-beginners-guide-to-iptables-the-linux-firewall/>
 * <https://help.ubuntu.com/community/IptablesHowTo>
 * <https://www.cyberciti.biz/faq/reload-sysctl-conf-on-linux-using-sysctl/>
+* <https://www.linuxtechi.com/assign-static-ip-address-ubuntu-20-04-lts/>
