@@ -2,7 +2,7 @@
 
 ## Setup
 
-(NAT Server)
+(NAT Server: Ubuntu 18.04)
 * `if=enp5s0`: internal network
 * `of=enp0s31f6`: outward network
 * `ip addr add 10.0.0.1/24 dev $if`: Add a static ip `10.0.0.1` for it.
@@ -39,7 +39,7 @@ Chain POSTROUTING (policy ACCEPT 353 packets, 29982 bytes)
 * set `net.ipv4.ip_forward=1` in `/etc/sysctl.conf`: allow this NAT Server to act as a router.
 * `sysctl -p /etc/sysctl.conf`: load the configuration.
 
-(Client)
+(Client: Ubuntu 20.04)
 * `if=eno1`: internal network
 * `ip addr add 10.0.0.2/24 dev $if`: Add a static ip `10.0.0.2` for it.
 ```
@@ -56,6 +56,16 @@ $ ip addr
 $ `ip route`
 default via 10.0.0.1 dev eno1
 10.0.0.0/24 dev eno1 proto kernel scope link src 10.0.0.2
+```
+* (Static IP configuration): `netplan apply` to take effect.
+```
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    eno1:
+      addresses: [10.0.0.2/24]
+      gateway4: 10.0.0.1
+  version: 2
 ```
 
 ## Troubleshooting
