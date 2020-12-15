@@ -72,3 +72,10 @@ default via 10.0.0.1 dev eno1
 * <http://linux.vbird.org/linux_server/0250simple_firewall.php#nat_what>
 * <https://www.csie.ntu.edu.tw/~b93070/CNL/v4.0/CNLv4.0.files/Page1504.htm>
 * <https://askubuntu.com/questions/988218/make-a-machine-a-nat-router>
+* <https://www.cyberciti.biz/faq/howto-iptables-show-nat-rules/>
+* <https://www.cyberciti.biz/faq/howto-linux-configuring-default-route-with-ipcommand/>
+* <https://www.cyberciti.biz/faq/ip-route-add-network-command-for-linux-explained/>
+* <https://www.cyberciti.biz/faq/linux-iptables-insert-rule-at-top-of-tables-prepend-rule/>
+* <https://www.howtogeek.com/177621/the-beginners-guide-to-iptables-the-linux-firewall/>
+* <https://help.ubuntu.com/community/IptablesHowTo>
+* <https://www.cyberciti.biz/faq/reload-sysctl-conf-on-linux-using-sysctl/>
