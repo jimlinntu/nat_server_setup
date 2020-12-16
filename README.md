@@ -79,6 +79,7 @@ network:
 * `ping 10.0.0.1`
 * `ping 10.0.0.2`
 * `ping 8.8.8.8`
+* `systemd-resolve --status | grep Current`
 
 ## References
 * <https://wiki.archlinux.org/index.php/iptables>
