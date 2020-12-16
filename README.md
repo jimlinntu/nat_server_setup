@@ -65,6 +65,9 @@ network:
     eno1:
       addresses: [10.0.0.2/24]
       gateway4: 10.0.0.1
+      nameservers:
+        addresses: [208.67.222.222, 208.67.220.220]
+
   version: 2
 ```
 
