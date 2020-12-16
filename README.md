@@ -90,3 +90,8 @@ network:
 * <https://help.ubuntu.com/community/IptablesHowTo>
 * <https://www.cyberciti.biz/faq/reload-sysctl-conf-on-linux-using-sysctl/>
 * <https://www.linuxtechi.com/assign-static-ip-address-ubuntu-20-04-lts/>
+* <https://serverfault.com/questions/914493/ubuntu-18-04-doesnt-load-iptables-rules-after-reboot>: I mainly consult this answer's code when writing `load_nat_iptables_rules.service`.
+* <https://netplan.io/faq/>: Ubuntu official Netplan FAQ.
+* <https://unix.stackexchange.com/questions/506347/why-do-most-systemd-examples-contain-wantedby-multi-user-target>: The meaning of `WantedBy`.
+* [how to start a systemd service before networking starts?](https://unix.stackexchange.com/questions/229048/how-to-start-a-systemd-service-before-networking-starts)
+* [systemd.service — Service unit configuration](https://www.freedesktop.org/software/systemd/man/systemd.service.html)

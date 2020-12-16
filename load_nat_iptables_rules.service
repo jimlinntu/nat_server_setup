@@ -1,0 +1,9 @@
+[Unit]
+Description=Load NAT iptables rules
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /home/jimlin7777/nat_server/load_nat_iptables_rules.sh
+
+[Install]
+WantedBy=network-pre.target
